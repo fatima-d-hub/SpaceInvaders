@@ -2,7 +2,7 @@
 
 Ce projet est une réinterprétation du célèbre jeu **Space Invaders**, développée en **Processing** (Java). Le joueur contrôle un vaisseau spatial pour détruire les envahisseurs ennemis à l’aide de missiles, tout en évitant leurs tirs.
 
-## 🧠 Fonctionnalités
+## Fonctionnalités
 
 - **Menus interactifs**. Le jeu commence par un menu d’accueil permettant de lancer une partie ou de quitter. Un écran de fin de partie s’affiche également après une défaite.
 
@@ -15,7 +15,7 @@ Ce projet est une réinterprétation du célèbre jeu **Space Invaders**, dével
 - **Obstacles destructibles**. Des blocs de protection protègent temporairement le joueur. Ils se dégradent à chaque impact et finissent par disparaître.
 
 
-# 🧱 Architecture du projet
+# Architecture du projet
 
 Le projet est organisé de façon modulaire pour séparer clairement les différentes responsabilités du jeu.
 | Dossier/Fichier             | Description                                             |
@@ -33,7 +33,7 @@ Le projet est organisé de façon modulaire pour séparer clairement les différ
 | `sketch.properties`         | Fichier de configuration propre à Processing            |
 | `diallo_diallo_rapport.pdf` | Rapport de projet au format PDF                         |
 
-📁 data/ — Ressources graphiques
+data/ — Ressources graphiques
 | Fichier                   | Utilisation                                   |
 | ------------------------- | --------------------------------------------- |
 | `player.png`              | Sprite du vaisseau du joueur                  |
@@ -45,13 +45,13 @@ Le projet est organisé de façon modulaire pour séparer clairement les différ
 | `image.jpg`               | Image utilisée pour le lancement du jeu           |
 
 
-📁 levels/ — Fichiers de niveau <br>
+levels/ — Fichiers de niveau <br>
 level1.txt : description textuelle de la première vague d’ennemis .
 
-📁 score/ — Sauvegarde des scores <br>
+score/ — Sauvegarde des scores <br>
 score.txt : contient les meilleurs scores ou le score actuel du joueur
 
-# 🎮 Comment jouer
+# Comment jouer
 Lancer le fichier space_invaders.pde avec l’environnement Processing.
 
 Appuyer sur la touche 1 pour démarrer une nouvelle partie.
@@ -64,17 +64,17 @@ Appuyer sur espace pour tirer sur les ennemis.
 
 Appuyer sur Échap pour afficher le menu popUP .
 
-## 📦 Installation
+## Installation
 
 1. Télécharger et installer [Processing](https://processing.org/download/).
 2. Ouvrir le fichier `space_invaders.pde`.
 3. Lancer le sketch (`Ctrl + R` ou bouton ▶️).
 
-## 🖼️ Aperçu
+## Aperçu
 # ![Fatimatou](https://github.com/Fatimatou-DIALLO-87/SpaceInvaders/blob/master/SpaceInvaders.gif)
 
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 -[Processing](https://processing.org)(langage Processing basé sur Java)
 - Ressources graphiques en PNG
